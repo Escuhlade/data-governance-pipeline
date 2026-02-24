@@ -1,0 +1,7 @@
+rule_id,rule_name,description,column,critical,violations,violation_pct,status,checked_at
+DQ-001,Descriptor Not Null,complaint descriptor must not be null,descriptor,True,30,0.6,FAIL,2026-02-24T01:46:01.527300
+DQ-002,Zip Code Format,incident_zip must be a valid 5-digit zip code,incident_zip,False,53,1.06,WARN,2026-02-24T01:46:01.528699
+DQ-003,Coordinate Completeness,latitude and longitude must both be present or both null,"latitude, longitude",True,0,0.0,PASS,2026-02-24T01:46:01.529044
+DQ-004,Open Complaint Flag Consistency,is_open flag must be consistent with closed_date presence,"is_open, closed_date",True,0,0.0,PASS,2026-02-24T01:46:01.530075
+DQ-005,Unique Key Integrity,unique_key must be unique across all records,unique_key,True,0,0.0,PASS,2026-02-24T01:46:01.530694
+DQ-006,Resolution Description Consistency,closed complaints must have a resolution_description,"resolution_description, is_open",False,13,0.26,WARN,2026-02-24T01:46:01.531174
