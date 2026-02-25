@@ -6,7 +6,7 @@
 ![Phase](https://img.shields.io/badge/phase-2%20of%203-blue)
 ![Python](https://img.shields.io/badge/python-3.11.5-blue)
 
-📚 **[View Full Documentation →](https://aaiyanvirji.github.io/data-governance-pipeline)**
+📚 **[View Full Documentation →](https://escuhlade.github.io/data-governance-pipeline)**
 
 </div>
 
