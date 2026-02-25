@@ -206,6 +206,8 @@ marimo/_static/
 marimo/_lsp/
 __marimo__/
 reports/nyc311.db
-docs-site/node_modules/node_modules/
-package-lock.json
-package.json
+node_modules/
+docs-site/node_modules/
+docs-site/build/
+/package-lock.json
+/package.json
